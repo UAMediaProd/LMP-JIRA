@@ -1,4 +1,4 @@
-# LMP JIRA REST Server
+# Media Hub REST Server
 
 Node.js server hosting for the rare API or Server-Side functions we need to use.
 
