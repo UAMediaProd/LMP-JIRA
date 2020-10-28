@@ -1,4 +1,4 @@
-# Media Hub REST Server
+# LMP JIRA REST Server
 
 Node.js server hosting for the rare API or Server-Side functions we need to use.
 
@@ -9,8 +9,6 @@ Right now, the direction for this is
 
 - Server-Side functions to connect to the LMP JIRA instance and create new tickets for the LMP Web Form
 - Using the above principle to create a form which can create issues for Alliance Program Changelogs
-
-This is hosted on [Glitch](https://glitch.com/~lmp-rest), and primary development makes sense to occur there and then exported back here for version control and management by LMP team.
 
 
 ## Made by [Glitch](https://glitch.com/)
