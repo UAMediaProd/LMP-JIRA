@@ -20,8 +20,6 @@ app.get("/", (request, response) => {
 });
 
 
-
-
 //JIRA REST API FOR MEDIA PRODUCTION
 
 var summary, description;
@@ -60,16 +58,6 @@ var issue = {
 var param = JSON.stringify(issue);
 console.log(param);
 
-// const options = {
-//   url: 'https://adelaide.atlassian.net/rest/api/2/issue/LVP-911',
-//   method: 'GET',
-//   headers: {
-//     'Accept':'application/json',
-//     'Authorization':'Basic YWFyb24uc2hhbm5vbi1ob25zb25AYWRlbGFpZGUuZWR1LmF1OmVYNGo0MUVOMW1NRTFKOVdUc2ZlNEJCQg==',
-//     'Access-Control-Allow-Origin':'*'
-//   }
-// }
-
 const send = {
   url: 'https://adelaide.atlassian.net/rest/api/2/issue/',
   method: 'POST',
@@ -95,6 +83,9 @@ request.post(send, function(err, resp, body){
     res.sendStatus(200);
 });
 
+
+
+// Add in a new endpoint here for the changelog, can use the same deets as above
 
 
 // listen for requests :)
