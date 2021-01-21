@@ -64,7 +64,7 @@ const send = {
   body: param,
   headers: {
     'Accept':'application/json',
-    'Authorization':'Basic YWFyb24uc2hhbm5vbi1ob25zb25AYWRlbGFpZGUuZWR1LmF1OmVYNGo0MUVOMW1NRTFKOVdUc2ZlNEJCQg==',
+    'Authorization':process.env.JIRA_AUTH,
     'Access-Control-Allow-Origin':'*',
     'Content-Type':'application/json'
   },
